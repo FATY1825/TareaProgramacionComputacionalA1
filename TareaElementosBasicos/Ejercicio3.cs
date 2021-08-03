@@ -10,6 +10,13 @@ namespace TareaElementosBasicos
     {
         static void Main(string[] args)
         {
+
+            /*Se pide que:
+            Crear un programa que pida al usuario dos números enteros. Si el segundo no es cero, 
+            mostrará el resultado de dividir entre el primero y el segundo. Por el contrario, 
+            si el segundo número es cero, escribirá "Error: No se puede dividir entre cero".*/
+
+
             Int32 numero1, numero2;
             Console.WriteLine("Proporcione un numero entero: ");
             numero1 = Convert.ToInt32(Console.ReadLine());

@@ -9,6 +9,8 @@ namespace TareaElementosBasicos
     class Ejercicio4
     {
         static void Main(string[] args)
+
+            /*Hacer un programa que transforme de grados centígrados a grados Fahrenheit.*/
         {
             //Se declaran las variables
             double cent, far;
@@ -18,7 +20,7 @@ namespace TareaElementosBasicos
             cent = Convert.ToDouble(Console.ReadLine());
 
             //Se hace la conversion 
-            far = (9 / 5) * cent + 32;
+            far = (cent * 9 / 5) + 32;
 
             // Salida de los datos
             Console.WriteLine("En grados Fahrenheit sus grados centigrados son: {0} ", far);

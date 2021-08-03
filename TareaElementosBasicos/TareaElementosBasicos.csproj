@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TareaElementosBasicos.Ejercicio3</StartupObject>
+    <StartupObject>TareaElementosBasicos.Ejercicio6</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,9 @@
     <Compile Include="Ejercicio1.cs" />
     <Compile Include="Ejercicio2.cs" />
     <Compile Include="Ejercicio3.cs" />
+    <Compile Include="Ejercicio4.cs" />
+    <Compile Include="Ejercicio5.cs" />
+    <Compile Include="Ejercicio6.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
